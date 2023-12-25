@@ -37,10 +37,12 @@
                android:layout_width="match_parent"
                android:layout_height="50dp"
                android:layout_marginTop="30dp"
+               android:inputType="text"
                android:background="@drawable/custom_edittext"
                android:drawableLeft="@drawable/baseline_person_24"
-               android:drawablePadding="9dp"
+               android:drawablePadding="8dp"
                android:hint="Usenrame"
+               android:padding="7dp"
                android:textColor="@color/black"
                android:textColorHighlight="@color/cardview_dark_background" />
 
@@ -50,16 +52,17 @@
                android:id="@+id/password"
                android:background="@drawable/custom_edittext"
                android:drawableLeft="@drawable/baseline_lock_24"
-               android:drawablePadding="9dp"
+               android:drawablePadding="8dp"
                android:hint="Password"
+               android:padding="7dp"
                android:inputType="textPassword"
                android:textColor="@color/black"
                android:textColorHighlight="@color/cardview_dark_background"
                android:layout_marginTop="20dp"/>
            <Spinner
+               android:id="@+id/spinner"
                android:layout_width="match_parent"
                android:layout_height="50dp"
-               android:id="@+id/spinner"
                android:layout_marginTop="20dp"/>
            <Button
                android:layout_width="match_parent"
