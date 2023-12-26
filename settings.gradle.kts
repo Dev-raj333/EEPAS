@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "EPEAS"
 include(":app")
+include(":admin")
