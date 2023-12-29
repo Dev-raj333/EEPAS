@@ -13,12 +13,33 @@
         <item android:id="@+id/Department"
             android:icon="@drawable/dashboard_24"
             android:title="Department"/>
+        <item android:id="@+id/designation"
+            android:icon="@drawable/dashboard_24"
+            android:title="Designations"/>
         <item android:id="@+id/employee"
             android:icon="@drawable/baseline_employee_24"
-            android:title="Employee"/>
+            android:title="Employee">
+            <menu>
+                <item android:id="@+id/add_employee" android:title="Add Employee"/>
+                <item android:id="@+id/list_employee" android:title="List Employee"/>
+            </menu>
+        </item>
         <item android:id="@+id/evaluator"
             android:icon="@drawable/baseline_evaluator_4_24"
-            android:title="Evaluator"/>
+            android:title="Evaluator">
+            <menu>
+                <item android:id="@+id/add_evaluator" android:title="Add Evaluator"/>
+                <item android:id="@+id/list_evaluator" android:title="List Evaluator"/>
+            </menu>
+        </item>
+        <item android:id="@+id/admin"
+            android:icon="@drawable/baseline_evaluator_4_24"
+            android:title="Admin">
+            <menu>
+                <item android:id="@+id/add_admin" android:title="Add Admin"/>
+                <item android:id="@+id/list_admin" android:title="List Admin"/>
+            </menu>
+        </item>
         <item android:id="@+id/appraisal"
             android:icon="@drawable/dashboard_24"
             android:title="Appraisal"/>
