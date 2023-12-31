@@ -41,6 +41,8 @@ public class LoginActivity extends AppCompatActivity {
             Toast.makeText(this,"Successfully Logged in", Toast.LENGTH_SHORT ).show();
             Intent intent = new Intent(this, AdminDashboardActivity.class);
             startActivity(intent);
+        }else{
+            Toast.makeText(this, "Password or username incorrect", Toast.LENGTH_SHORT).show();
         }
     }
 }
